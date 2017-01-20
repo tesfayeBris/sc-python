@@ -6,10 +6,11 @@ import matplotlib.pyplot
 
 
 
-def analyse (filename, outfile=None):
-    """ This function load the data file with proper data type and delimiter.
-        Then, it plots data in subplots of average, maximum and minimum.
-    
+def analyse(filename, outfile=None):
+
+    """
+    This function load the data file with proper data type and delimiter.
+    Then, it plots data in subplots of average, maximum and minimum.
     """
     data = numpy.loadtxt(fname=filename, delimiter=',')
     
